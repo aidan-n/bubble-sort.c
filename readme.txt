@@ -1,1 +1,7 @@
-Bubble Sort in C, compiled and ran using https://www.onlinegdb.com/online_c_compiler because VS Code appallingly can not do this on its own.
+Bubble Sort in C
+
+To build Docker Image:
+`docker build -t bubble-sort-image .`
+
+To run  Docker Image, while allowing for interaction with user input, use `-it` tag:
+`docker run -it bubble-sort-image`
